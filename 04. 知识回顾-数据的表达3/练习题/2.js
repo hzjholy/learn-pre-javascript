@@ -9,3 +9,31 @@ monica，17岁，爱好奶茶、唱歌
 1. 如何得到平均年龄
 2. 如何得到所有人所有爱好的总数
 */
+
+var teachers = [
+  {
+    name: "邓哥",
+    age: 81,
+    loves: ["香菜", "秋葵", "遛鸟"],
+  },
+  {
+    name: "邓哥",
+    age: 30,
+    loves: ["扯淡", "找邓嫂"],
+  },
+  {
+    name: "邓哥",
+    age: 17,
+    loves: ["奶茶", "唱歌"],
+  },
+];
+
+var averageAge =
+  (teachers[0].age + teachers[1].age + teachers[2].age) / teachers.length | 0;
+var totalLoves =
+  teachers[0].loves.length +
+  teachers[1].loves.length +
+  teachers[2].loves.length;
+
+console.log("averageAge", averageAge);
+console.log("totalLoves", totalLoves);

@@ -6,3 +6,19 @@
 
 用字面量描述上面的信息
 */
+
+var person = {
+  name: "邓哥",
+  isMale: true,
+  height: "185",
+  wifes: [
+    {
+      name: "翠花",
+      type: "东北人",
+    },
+    {
+      name: "丧彪",
+      type: "铜锣湾人",
+    },
+  ],
+};
