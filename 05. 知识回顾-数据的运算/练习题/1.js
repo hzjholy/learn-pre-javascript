@@ -7,4 +7,13 @@
 
 function sum(a, b) {
   // code here
+  // a = a ? +a : 0
+  a = +a || 0;
+  // b = b ? +b : 0
+  b = +b || 0;
+  return a + b;
 }
+
+var c = sum("abc", -1);
+
+console.log("c", c);
